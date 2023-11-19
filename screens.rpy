@@ -1121,46 +1121,46 @@ init -501 screen keyboard_help():
 
     hbox:
         label _("Phím Page Up")
-        text _("Rolls back to earlier dialogue.")
+        text _("Tua ngược lại về câu thoại trước đó.")
 
     hbox:
-        label _("Page Down")
-        text _("Rolls forward to later dialogue.")
+        label _("Phím Page Down")
+        text _("Tua tiếp đến câu thoại tiếp theo.")
 
     hbox:
-        label "H"
-        text _("Hides the user interface.")
+        label "Phím H"
+        text _("Ẩn giao diện của Game.")
 
     hbox:
-        label "S"
-        text _("Takes a screenshot.")
+        label "Phím S"
+        text _("Chụp ảnh màn hình của trò chơi.")
 
     hbox:
-        label "V"
-        text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
+        label "Phím V"
+        text _("Đọc to {a=https://www.renpy.org/l/voicing}lời thoại của nhân vật đó{/a}.")
 
 
 init -501 screen mouse_help():
 
     hbox:
-        label _("Left Click")
-        text _("Advances dialogue and activates the interface.")
+        label _("Chuột trái")
+        text _("Tiếp tục đoạn hội thoại.")
 
     hbox:
-        label _("Middle Click")
-        text _("Hides the user interface.")
+        label _("Chuột giữa")
+        text _("Ẩn giao diện của Game.")
 
     hbox:
-        label _("Right Click")
-        text _("Accesses the game menu.")
+        label _("Chuột phải")
+        text _("Truy cập vào Menu của Game.")
 
     hbox:
-        label _("Mouse Wheel Up\nClick Rollback Side")
-        text _("Rolls back to earlier dialogue.")
+        label _("Lăn chuột lên\nẤn nút quay lại trên chuột")
+        text _("Quay trở lại câu thoại trước đó.")
 
     hbox:
-        label _("Mouse Wheel Down")
-        text _("Rolls forward to later dialogue.")
+        label _("Lăn chuột xuống")
+        text _("Tiếp tục với câu thoại kế tiếp.")
 
 
 init -501 screen gamepad_help():
